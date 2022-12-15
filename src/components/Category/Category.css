@@ -1,0 +1,46 @@
+.category {
+    background: rgb(250, 222, 222);
+}
+
+.category_card {
+    border: 1px dashed #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 20px;
+    margin-bottom: 1px;
+}
+
+.category_card a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category_card a div h5{
+   font-size: 0.9rem;
+   letter-spacing: 2px;
+   color: #000;
+}
+
+.category_card a div p{
+   font-size: 0.7rem;
+   letter-spacing: 1px;
+   color: green;
+}
+
+.category_card a {
+    text-decoration: none;
+}
+
+.category_card .category_image {
+    width: 80px;
+    transition: 0.3s;
+}
+
+.category_card:hover .category_image {
+    transform: translate(18px, 0);
+}
+.category_card:hover  {
+    border: 1px dashed green;
+}
+
